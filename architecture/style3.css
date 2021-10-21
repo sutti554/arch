@@ -1,0 +1,19 @@
+body {
+  background-color: rgba(216, 191, 216, 0.363);
+}
+
+#content {
+  position: absolute;
+  left: 46%;
+  top: 50%;
+  font-family: "Vollkorn", serif;
+  font-size: 20px;
+}
+
+.material-icons:hover {
+  color: rgba(255, 57, 100, 0.801);
+}
+
+a:visited {
+  color: rgba(255, 57, 100, 0.801);
+}

@@ -1,0 +1,149 @@
+#content {
+  position: absolute;
+  left: 40%;
+  top: 15%;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 75px 100px 100px 100px 100px 100px 75px;
+}
+
+#mydiv-1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+#mydiv-2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+#mydiv-3 {
+  grid-column: 3;
+  grid-row: 1;
+}
+#mydiv4 {
+  grid-column: 1;
+  grid-row: 2;
+}
+#mydiv-5 {
+  grid-column: 2;
+  grid-row: 2;
+}
+#mydiv-6 {
+  grid-column: 3;
+  grid-row: 2;
+}
+#mydiv-7 {
+  grid-column: 1;
+  grid-row: 3;
+}
+#mydiv-8 {
+  grid-column: 2;
+  grid-row: 3;
+}
+#mydiv-9 {
+  grid-column: 3;
+  grid-row: 3;
+}
+#mydiv-10 {
+  grid-column: 1;
+  grid-row: 4;
+}
+#mydiv-11 {
+  grid-column: 2;
+  grid-row: 4;
+}
+#mydiv-12 {
+  grid-column: 3;
+  grid-row: 4;
+}
+#mydiv-13 {
+  grid-column: 1;
+  grid-row: 5;
+}
+#mydiv-14 {
+  grid-column: 2;
+  grid-row: 5;
+  position: relative;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+#mydiv-14:hover {
+  opacity: 0.75;
+}
+
+a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+/* img:hover {
+  border-width: 10px;
+  border-color: chartreuse;
+} */
+
+.home {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#mydiv-15 {
+  grid-column: 3;
+  grid-row: 5;
+}
+#mydiv-16 {
+  grid-column: 1;
+  grid-row: 6;
+}
+#mydiv-17 {
+  grid-column: 2;
+  grid-row: 6;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#mydiv-17:hover {
+  opacity: 0.75;
+}
+
+.fun {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#mydiv-18 {
+  grid-column: 3;
+  grid-row: 6;
+}
+#mydiv-19 {
+  grid-column: 1;
+  grid-row: 7;
+}
+#mydiv-20 {
+  grid-column: 2;
+  grid-row: 7;
+}
+#mydiv-21 {
+  grid-column: 3;
+  grid-row: 7;
+}
+
+.material-icons {
+  color: gray;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.material-icons:hover {
+  color: rgba(255, 57, 100, 0.801);
+}
